@@ -9,11 +9,12 @@ function App() {
   return (
     <div className="App">
       {/* <h2>LifeCycles</h2> */}
+      <ClassComponent />
       {/* <button onClick={() => setIsVisible(!isVisible)}>Toggle Comp</button> */}
       {/* {isVisible && <ClassComponent />} */}
       {/* <UseStateComp /> */}
       {/* {isVisible && <UseEffectComp />} */}
-      <Users />
+      {/* <Users /> */}
     </div>
   )
 }
